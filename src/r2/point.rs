@@ -54,8 +54,8 @@ impl<'a, 'b> std::ops::Mul<&'b Point> for &'a Point {
     /// returns the product between p and other.
     fn mul(self, other: &'b Point) -> Self::Output {
         Point {
-            x: self.x * self.x,
-            y: other.y * other.y,
+            x: self.x * other.x,
+            y: self.y * other.y,
         }
     }
 }
