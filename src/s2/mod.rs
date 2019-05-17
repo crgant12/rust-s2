@@ -14,6 +14,10 @@ pub mod region;
 pub mod edgeutil;
 pub mod metric;
 pub mod predicates;
+pub mod r#loop;
+pub mod shapeindex;
+
+pub mod edge_clipping;
 
 #[cfg(test)]
 mod random;
