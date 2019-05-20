@@ -15,5 +15,7 @@ pub mod edgeutil;
 pub mod metric;
 pub mod predicates;
 
+pub mod edge_crosser;
+
 #[cfg(test)]
 mod random;
